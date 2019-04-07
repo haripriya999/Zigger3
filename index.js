@@ -3,7 +3,12 @@ import {AppRegistry} from 'react-native';
 import App from './App';
 import {name as appName} from './app.json';
 var config = {
-    xxx
+    apiKey: "xxx",
+    authDomain: "xxx",
+    databaseURL: "xxx",
+    projectId: "xxx",
+    storageBucket: "xxx",
+    messagingSenderId: "xxx"
 };
 console.disableYellowBox = true;
 firebase.initializeApp(config);
